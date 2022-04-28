@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Viga&display=swap');
+#nav{
+    background-color: black;
+    margin-left: -15;
+    margin-right: -15;
+    margin-top: -9;
+    margin-bottom: -15;
+    justify-content: center;
+
+
+}
+
+.men-txt{
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    -webkit-text-stroke-width: 0.000001px;
+    -webkit-text-stroke-color: red;
+    font-size: 64px;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color: rgba(47, 47, 47, 1);
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+.column{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.cropped {
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.col{
+    padding: 10%;
+    margin-left: -1%;
+    margin-right: -10%;
+}
+
+.pressed{
+    opacity: 0.5;
+}
+
+.drum{
+    padding: 5%;
+    margin-right: 2px;
+    padding: 5%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    border-radius: 10%;
+
+}
+
+.w{
+    background-image: url(tom1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a{
+    background-image: url(tom2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s{
+    background-image: url(tom3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.d{
+    background-image: url(tom4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.j{
+    background-image: url(crash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.k{
+    background-image: url(snare.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.l{
+    background-image: url(kick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.f{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.killlove{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bindlove{
+    text-align: center;
+    font-size:x-large;
+}
+
